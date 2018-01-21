@@ -1,0 +1,131 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 5;
+  background-color: black;
+  margin-top: 0px;
+}
+
+header img {
+  margin: 10px;
+  height: 50px;
+}
+
+header nav {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+header nav span {
+  text-decoration: underline;
+  margin: 10px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 69px;
+}
+
+.main-img {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: auto;
+  align-items: center;
+}
+
+.main-img-text {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+  width: 1200px;
+  align-items: center;
+}
+
+.tea-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.teas {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tea {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 15px;
+}
+
+.tea img {
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("../images/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1200px;
+  margin-top: 30px;
+}
+
+.location-boxes {
+  display: flex;
+  flex-direction: row;
+  width: 1020px;
+  height: 300px;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.location {
+  display: flex;
+  background-color: black;
+  opacity: 1;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+}
+
+.location span {
+  flex-grow: 1;
+}
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+#copyright {
+  position: relative;
+  left: 20px;
+  top: 100px;
+}
